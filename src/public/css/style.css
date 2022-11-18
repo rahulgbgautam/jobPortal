@@ -1,0 +1,705 @@
+:root{
+
+	--dark: #807e7e;
+  	--white: #ffffff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+
+	scroll-behavior: smooth;
+}
+
+
+/* #################### main header start #################### */
+
+.main-header{
+
+	height: auto;
+	width: 100%;
+	background-color: #F8F9FB;
+
+}
+
+.navbar-nav .nav-item button{
+
+	width: 120px;
+    border-radius: 20px;
+	height: 42px;
+
+}
+
+.main-header .container button{
+
+	width: 120px;
+    border-radius: 20px;
+
+}
+
+
+.main-header .row button{
+
+	border-radius: 20px;
+	width: 120px;
+	height: 42px;
+}
+
+.navbar-nav > li{
+
+		font-size: 1.6rem;
+}
+
+/* #################### main header end #################### */
+
+
+    /* ##############################   category start ########################## */
+
+
+
+    		.category{
+
+    			height: auto;
+    			width: 100%;
+    		}
+
+
+
+
+
+    		.img-middle{
+
+    			width: 100%;
+    			position: relative;
+    		}
+
+
+    		.img-middle .img1{
+
+	 			position: absolute;
+    			top: -16.0rem;
+    			height: 24rem;
+    			width: 100%;
+
+    		}
+
+
+    		.card-img{
+
+    				    height: 60px;
+					    width: 70px;
+					    margin-left: 15px;
+					    border-radius: 10px;
+					    padding: 8px;
+					    margin-top: 15px;
+					    position: relative;
+    		}
+
+    		.card-img2{
+
+    			position: absolute;
+    			top: 25px;
+    			left: 23px;
+    		}
+
+
+    		.card-effect:hover{
+
+				transform: translateY(-20px);
+				box-shadow: 1px 1px 14px 10px rgba(153,153,153,0.88);
+				transition: all 0.4s linear;	
+
+			}
+
+			.card{
+
+				
+				/* box-shadow: 1px 1px 14px 10px rgba(0,0,0,0.2); */
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				border-radius: 15px;	
+
+			}
+
+			.card-body p{
+
+				color: #747474;
+				font-size: 1.3rem;
+
+			}
+
+			.btn-category{
+
+				    width: 200px;
+				    height: 40px;
+				    border-radius: 20px;
+
+			}
+
+
+    /* ##############################   category end ########################## */
+
+
+
+
+    /* ###################################  your-great-profile start ######################## */
+
+
+    	.your-great-profile{
+
+    			height: auto;
+    			width: 100%;
+    			background-color: #F6F7F9;
+    	}
+
+    	.gp-btn{
+    		width: 200px;
+    		height: 40px;
+    		border-radius: 20px;
+    	}
+
+
+    /* ###################################  your-great-profile end ######################## */
+
+
+
+/* ###################################  job-seeker-said start ################################# */
+
+	.job-seeker-said{
+
+		height: auto;
+		width: 100%;
+	}
+
+
+
+/* ###################################  job-seeker-said end ################################# */
+
+
+/* ################################   weekly-update start #################### */
+
+	.weekly-update{
+
+		height: auto;
+		width: 100%;
+		background-color: #F6F7F9;
+	}
+
+	.rounded-div{
+
+		width: 100%;
+		background-color: #FAB8C4;
+		border-radius: 200px; 
+		padding-top: 5rem;
+	
+	}
+
+	 
+
+	 .comb-input-btn{
+
+			position: relative;
+	}
+
+	.comb-input-btn img{
+
+		position: absolute;
+		bottom: 7px;
+		left: 15px;
+
+	}
+
+	.comb-input-btn input{
+
+			border: none;
+			width: 40rem;
+			height: 40px;
+			border-radius: 20px;
+			padding-left: 60px;
+	}
+
+	.comb-input-btn button{
+
+			border: none;
+			height: 40px;
+			width: 10rem;
+			border-radius: 20px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+	}
+
+/* ################################   weekly-update end #################### */
+
+
+
+/* ############################  footer-section start ########################## */
+
+
+.footer-section{
+
+	height: auto;
+	width: 100%;
+	background-color: #1B2E3D;
+}
+
+.footer-section ul li{
+
+		color: var(--white);
+}
+
+
+/* ############################  footer-section end ########################## */
+
+
+
+
+
+/* ###################################  responsiveness start ################################## */
+
+	
+@media(min-width: 1200px){
+
+	/* .header{
+			height: 700px;
+	}
+ */
+	html{
+
+		font-size: 70%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 60px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 60px !important;	
+	}
+
+
+	.rounded-div{
+
+		height: 250px;
+		
+	}
+
+
+	.comb-input-btn{
+
+			margin-left: 20rem;
+	}
+
+
+ 
+    		.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 15rem;
+    			width: 70%;
+    			
+    		}
+
+    	.card-width{
+
+    			width: 23.0rem;
+    	}
+
+
+    .plr{
+
+    	padding-left: 9rem;
+    	padding-right: 9rem;
+    }
+
+}
+
+
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+/* 
+	.header{
+			height: 600px;
+	} */
+
+	html{
+
+		font-size: 65%;
+	}
+
+	.sec-mt{
+
+		margin-top: 50px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 50px !important;	
+	}
+
+	.rounded-div{
+
+		height: 220px;
+		
+		
+	}
+
+	.comb-input-btn{
+
+			margin-left: 12rem;
+	}
+
+
+	.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 15rem;
+    			width: 70%;
+    			
+    		}
+		
+    .card-width{
+
+    			width: 23.0rem;
+    	}
+
+
+    .plr{
+
+    	padding-left: 8rem;
+    	padding-right: 8rem;
+    }
+
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	/* 	.header{
+			height: 500px;
+	} */
+
+	html{
+
+		font-size: 55%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 40px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 40px !important;	
+	}
+
+
+	.rounded-div{
+
+		height: 180px;
+		
+		
+	}
+
+	.comb-input-btn{
+
+			margin-left: 8rem;
+	}
+
+
+	.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 15rem;
+    			width: 70%;
+    			
+    		}
+
+    .card-width{
+
+    			width: 23.0rem;
+    	}
+
+    
+   
+
+}
+
+
+
+@media(min-width:576px) and (max-width: 767px){
+
+	/* 	.header{
+			height: 400px;
+	}
+ */
+
+	html{
+
+		font-size: 45%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 35px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 35px !important;	
+	}
+
+
+	.rounded-div{
+
+		height: 150px;
+		
+		
+		
+	}
+
+	.comb-input-btn{
+
+			margin-left: 7rem;
+	}
+
+
+	.comb-input-btn input{
+
+			height: 20px !important;
+			
+	}
+
+	.comb-input-btn button{
+
+			
+			height: 20px;
+			
+
+}
+
+
+.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 15rem;
+    			width: 70%;
+    			
+    		}
+
+
+     .card-width{
+
+    			width: 35.0rem;
+    	}
+
+
+    .plr{
+
+    	padding-left: 15rem;
+    	padding-right: 15rem;
+    }
+
+    .smt{
+
+    	margin-top: 4.5rem;
+    }
+
+	.ndis{
+
+		display: none;
+
+	}    
+
+	.sm-center{
+		text-align: center;
+	}
+    	
+}
+
+
+
+@media(min-width:321px) and (max-width: 575px){
+
+
+	/* 	.header{
+			height: 300px;
+	} */
+
+
+	html{
+
+		font-size: 38%;
+	}
+
+	.sec-mt{
+
+		margin-top: 30px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 30px !important;	
+	}
+
+	.rounded-div{
+
+		height: 100px;
+		
+				
+	}
+
+
+	.comb-input-btn input{
+
+			height: 20px !important;
+			width: 2rem !important;
+			
+	}
+
+	.comb-input-btn button{
+
+			
+			height: 20px;
+			
+
+}
+
+
+.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 10rem;
+    			width: 70%;
+    			
+    		}
+
+
+    .card-width{
+
+    			width: 42.0rem;
+    	}
+
+
+    .plr{
+
+    	padding-left: 8rem;
+    	padding-right: 8rem;
+    }
+
+
+    .smt{
+
+    	margin-top: 4.5rem;
+    } 
+
+    .ndis{
+
+		display: none;
+		
+	}
+
+	#rdiv-h1{
+
+		font-size: 1.8rem;
+	}
+
+	.sm-center{
+		text-align: center;
+	} 	
+
+
+}
+
+
+@media(max-width: 320px){
+
+
+	/* 	.header{
+			height: 200px;
+	} */
+
+	html{
+
+		font-size: 35%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 25px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 25px !important;	
+	}
+
+	.rounded-div{
+
+		height: 80px;
+
+	}
+
+	.rounded-div h1{
+
+		font-size: 1.6rem;
+	}
+
+
+.img-middle .img2{
+
+    			position: absolute;
+    			top: -7rem;
+    			left: 10rem;
+    			width: 70%;
+    			
+    		}
+
+    .card-width{
+
+    			width: 30.0rem;
+    	}		
+
+
+    .plr{
+
+    	padding-left: 8rem;
+    	padding-right: 8rem;
+    }
+
+     .smt{
+
+    	margin-top: 4.5rem;
+    }	
+
+
+    .ndis{
+
+		display: none;
+		
+	} 
+
+	.sm-center{
+		text-align: center;
+	}
+
+}

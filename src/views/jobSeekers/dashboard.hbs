@@ -1,0 +1,23 @@
+{{>headers}}
+<div class="d-flex justify-content-start mt-5">
+</div>
+<div class="col-8 m-auto">
+    <table id="example2" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Job Title</th>
+                <th>Job Description</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each data}}
+            <tr>
+                <td>{{this.job_title}}</td>
+                <td>{{this.job_description}}</td>
+            </tr>
+        {{/each}}         
+        </tbody>
+    </table>
+</div>
+{{>footers}}
+

@@ -1,0 +1,17 @@
+{{>headers}}
+<div class="col-8 m-auto">
+    <h3 class="text-center mt-5">Add Job</h3>
+    <form action="/jobPosters/updateJob/{{data._id}}" method="post">
+        <div class="form-group">
+            <label for="">Job Title</label>
+            <input type="text" name="job_title" class="form-control" value="{{data.job_title}}">
+        </div>
+        <div class="form-group">
+            <label for="">Job Description</label>
+            <textarea name="job_description" class="form-control" style="height:200px">{{data.job_description}}</textarea>
+        </div>
+        <input type="submit" class="form-control btn-success">
+    </form>
+</div>
+{{>footers}}
+
